@@ -1,0 +1,353 @@
+while True:
+
+ city=str(input("Enter The City That you Want Info About"))
+
+ if city=="quit":
+    break
+ if city=="crash":
+      print("fuck you loser"*40000)
+ if city=="fun":
+      print("(❁´◡`❁🤣🤦‍♀️✔)"*10000)
+
+
+
+ match city:
+    case "Dubai":
+        print("Dubai is the most populous city in the UAE and a global business/tourism hub on the Persian Gulf, known for its rapid transformation from a fishing village to a modern metropolis. Boasting over 4 million residents—92 percent expatriates—it is famed for the Burj Khalifa, massive shopping malls, and luxurious, tax-efficient lifestyle.")
+    case "Abu Dhabi":
+        print("Abu Dhabi is the capital and largest emirate of the United Arab Emirates (UAE), occupying roughly 85 percent of the country's total territory. ")
+    case "Kabul":
+        print("Kabul is the capital and largest city of Afghanistan, with a population over 4.5 million.")
+    case "Istanbul":
+        print("8 current facts about Istanbul and Turkey - TOOISTANBUL ...Istanbul is a major transcontinental city bridging Europe and Asia, straddling the Bosphorus Strait in Turkey. As a former capital of the Roman, Byzantine, and Ottoman empires, it features deep history (Hagia Sophia, Topkapi Palace) and a population of over 16 million. It is a massive cultural, historical, and economic hub known for the Grand Bazaar and a vibrant, modern atmosphere. ")
+    case "Izmir":
+        print("İzmir, Turkey's third-largest city, is a modern, cosmopolitan hub on the Aegean coast known as The Pearl of the Aegean. With a history spanning over 8,500 years, it was anciently known as Smyrna. It combines a vibrant Mediterranean lifestyle with historic sites like the Kemeraltı Bazaar, the Clock Tower, and nearby UNESCO sites like Ephesus.")
+    case "Rome":
+        print("Rome, the capital of Italy and known as the Eternal City,is a historic metropolis founded in 753 BC. Built on seven hills, it offers a dense mix of ancient ruins like the Colosseum and Pantheon alongside 900+ churches, over 280 fountains, and the independent Vatican City enclave")
+    case "Bangcok":
+        print("Bangkok, the capital of Thailand, is a vibrant metropolis known as Krung Thep (City of Angels) by locals. Famed for its ornate temples, bustling street life, and dynamic food scene, it is one of the world's most visited cities. It features a tropical, humid climate and is a major travel hub located in Southeast Asia.")
+    case "Paris":
+        print("A to Z of Paris | 26 fascinating facts about Paris - The ...Paris, the capital of France and nicknamed -The City of Light- (la Ville Lumière), is a global hub for art, fashion, gastronomy, and culture located on the Seine River. Famous for landmarks like the Eiffel Tower and Notre Dame, it has a population of over 2 million (12 million+ in the metro area) and is renowned for its cafe culture and historic architecture. ")
+    case "Fars":
+        print("Fars, historically known as Persis or Pars, is a province in southwestern Iran that serves as the heartland of ancient Persian civilization. It is the origin of the Persian people, language, and culture, with history dating back thousands of years")
+
+    case "Kandahar":
+         print("Kandahar is One of the oldest cities in the region and considered the birthplace of modern Afghanistan. It is an important political and economic hub in the south.")
+    case "Herat":
+         print("Herat is A historic city near the Iranian border. Herat is known for its beautiful Islamic architecture and as a center of art, poetry, and culture.")
+    case "Balkh":
+         print("Balkh is One of the oldest regions in Afghanistan, often called the “Mother of Cities.” It has a rich cultural and historical heritage.")
+    case "Bamyan":
+         print("Bamyan is Famous for the ancient Buddhas of Bamyan (destroyed in 2001). It is known for its stunning mountain landscapes and historical significance.")
+    case "Mazar":
+         print("Mazar is Famous for the Blue Mosque (Shrine of Hazrat Ali). It is an important cultural and religious center in northern Afghanistan.")
+    case "Badakhshan":
+         print(" Badakhshan is A mountainous region known for its natural beauty and lapis lazuli mines. It is remote but culturally rich.")
+    case "Helmand":
+         print("Helmand is The largest province in Afghanistan. It is known for agriculture, especially irrigation projects, but has also been a key area in conflicts.")
+    case "Nangarhar":
+         print("Nangarhar is An important agricultural and trade region. It connects Afghanistan to Pakistan and is known for citrus fruits and farming.")
+    case "Jalalabad":
+         print("Jalalabad is Located in eastern Afghanistan near Pakistan. It is known for its warm climate, agriculture, and strategic trade routes.")
+    case "Wardak":
+         print("Maiden Wardak is located just ," 
+         "southwest of Kabul and is considered part of the central region of" \
+         " Afghanistan.Its capital is Maidan Shar, which serves " \
+         "as the main administrative and economic center.The province is known for its m" \
+         "ountainous terrain and beautiful natural landscapes.Agriculture plays a major role," \
+         " with wheat, fruits, and vegetables commonly grown.Wardak is also known for producing" \
+         " apples and other fresh " \
+         "produce.It has historically been an important route connecting Kabul to central and " \
+         "western Afghanistan.The people of Wardak are mostly Pashtuns, especially from the " \
+         "Wardak tribe.Education" \
+         " has been developing in the province, with several schools and institutions present." \
+         "The region has experienced conflict in recent decades but remains important strategically"
+         ".Despite challenges, Wardak continues to be a vital province due to its location and" \
+         " resources.")
+    case "Ghazni":
+         print("Ghazni is Ghazni is a historic city located"
+         " in southeastern Afghanistan between Kabul and Kandahar." \
+         "It was once the capital of the powerful Ghaznavid Empire in the 10th–12th" \
+         " centuries.The city is known for its ancient minarets and Islamic architecture." \
+         "Ghazni has long been " \
+         "an important cultural and trade center.Today, it remains significant for its " \
+         "history and strategic location.")
+    case "Badghis":
+         print("Badghis is Badghis is located in the northwest of AfghanistanIt is mostly " \
+         "mountainous and known for strong winds and dry climate." \
+         "The province relies on agriculture and livestock.")
+    case "Baghlan":
+         print("Baghlan is  located in the northwest of Afghanistan." \
+         "It is mostly mountainous and known for strong winds and dry climate." \
+         "The province relies on agriculture and livestock.")
+    case "Daykundi":
+         print("Daykundi is Daykundi is a central mountainous province.It "
+         "is mostly rural with agriculture as the main livelihood." \
+         "The population is largely Hazara.")
+    case "Faryab":
+         print("Faryab is located in northern Afghanistan." \
+         "It is known for farming and animal husbandry." \
+         "The province has a mix of ethnic groups.")
+    case "Farah":
+         print("Farah lies near the border with Iran." \
+         "It is known for agriculture and trade routes"
+         ".The Farah River supports farming.")
+    case "Ghor":
+         print("Ghor is a mountainous and historic province." \
+         "It was once part of the Ghorid Empire." \
+         "The area is remote with limited infrastructure.")
+    case "Jawzjan":
+         print("Jawzjan is known for natural gas resources." \
+         "It has flat lands suitable for farming"
+         ".The province is culturally diverse.")
+    case "Kapisa":
+         print("Kapisa is close to Kabul and very green." \
+         "It produces fruits like grapes and mulberries." \
+         "The area has scenic valleys.")
+    case "Khost":
+         print("Khost borders Pakistan in the southeast." \
+         "It is known for agriculture and forests." \
+         "The province has strong tribal traditions.")
+    case "Kunar":
+         print("Kunar is a mountainous province with rivers." \
+         "It has forests and natural beauty." \
+         "Farming and timber are important.")
+    case "Kunduz":
+         print("Kunduz is a key agricultural region." \
+         "It produces rice, wheat, and cotton." \
+         "It is also an important trade center.")
+    case "Laghman":
+           print("Laghman is known for fertile valleys." \
+           "It produces citrus fruits and crops." \
+           "The Alingar River supports farming.")
+    case "Logar":
+           print("Logar lies south of Kabul" \
+           "It is rich in agriculture and minerals." \
+           "The province is close to the capital")
+    case "Nimruz":
+           print("Nimruz is a desert province near Iran and Pakistan " \
+           "It has a hot and dry climate.Trade and border crossings are important.")
+    case "Nuristan":
+           print("Nuristan is a remote mountainous region." \
+           "It has forests and unique cultures." \
+           "The province is difficult to access.")
+    case "Paktia":
+           print("Paktia is known for its mountains and tribes." \
+           "It has strong cultural traditions." \
+           "Farming and livestock are common.")
+    case "Panjshir":
+           print("Panjshir is famous for its valley and resistance history." \
+           "It has beautiful mountains and rivers.Tourism potential is high.")
+    case "Parwan":
+           print("Parwan lies north of Kabul." \
+           "It is known for agriculture and trade." \
+           "Bagram is located in this province.")
+    case "Samangan":
+           print("Samangan has historical sites and caves." \
+           "It is known for farming and livestock." \
+           "The province has ancient heritage.")
+    case "Sare pol":
+           print("Sar-e Pol is a northern province with hills." \
+           "It produces oil and gas.Farming is also important.")
+    case "Takhar":
+           print("Takhar is known for agricultureIt grows wheat, rice, and fruits." \
+           "The province has many rivers.")
+    case "Urozgan":
+           print("Urozgan is mountainous and rural." \
+           "Farming and livestock are common." \
+           "It has traditional tribal communities""😍")
+           
+    case "zabul":
+           print("Zabul is located in southern Afghanistan." \
+           "It has a dry climate and rugged land"
+           ".Agriculture and livestock are main livelihoods.")
+    case "Tokyo":
+           print("World’s largest metropolitan area." \
+           "Blends futuristic tech with tradition." \
+           "Known for efficiency and cuisine.") 
+    case "New York":
+           print("A global hub for finance, media, and culture." \
+           "Home to Wall Street and Broadway." \
+           "Known for its skyline and diversity.")
+    case "London":
+           print("Historic yet modern capital of the UK." \
+           "Major center for finance and politics." \
+           "Famous landmarks like Big Ben.")
+    case "Brijing":
+           print("China’s political and cultural center." \
+           "Home to the Forbidden City." \
+           "Rapid modernization with deep history.")
+    case "Shanghai":
+           print("China’s financial powerhouse." \
+           "Famous skyline along the Bund." \
+           "Major global trade hub.")
+    case "Los Angeles":
+           print("Entertainment capital of the world." \
+           "Home to Hollywood and film industry." \
+           "Diverse culture and coastal lifestyle")
+    case "Singapore":
+           print("Highly developed city-state in Asia." \
+           "Known for cleanliness and efficiency." \
+           "Major global financial hub.")
+    case "Hong Kong":
+           print("International finance and trade hub." \
+           "Famous skyline and harbor views." \
+           "Blend of East and West cultures.")
+    case "Sydney":
+           print("Coastal city with iconic Opera House." \
+           "Strong economy and high quality of life." \
+           "Popular for beaches and tourism.")
+    case "Toronto":
+           print("Canada’s largest city." \
+           "Very multicultural population." \
+           "Major economic and cultural center.")
+    case "Berlin":
+           print("Historic capital with modern edge." \
+           "Known for art, nightlife, and history." \
+           "Center of politics and innovation.")
+    case "Madrid":
+           print("Historic capital with modern edge." \
+           "Known for art, nightlife, and history." \
+           "Center of politics and innovation.")
+    case "Seoul":
+             print("High-tech and fast-paced city." \
+             "Global center for K-pop and tech." \
+             "Blends tradition with modern life.")
+    case "Mumbai":
+             print("India’s financial capital." \
+             "Home to Bollywood film industry." \
+             "Densely populated and vibrant.")
+    case "Delhi":
+             print("Historic capital of India " \
+             "Mix of ancient monuments and modernity." \
+             "Political and cultural center.")
+
+    case "Jakarta":
+             print("Indonesia’s largest city." \
+             "Economic and political hub." \
+             "Known for traffic and growth")
+    case "Mexico City":
+             print("One of the largest cities globally." \
+             "Rich Aztec and colonial history." \
+             "Major cultural hub.")
+    case "Sao paulo":
+             print("Brazil s economic powerhouse." \
+             "Huge, diverse population." \
+             "Strong business and finance sector.")
+    case "Cairo":
+             print("Largest city in the Arab world." \
+             "\Near the Pyramids of Giza." \
+             "Historic and densely populated.")
+    case "Johannesburg":
+             print("Economic hub of South Africa." \
+             "Known for gold mining history." \
+             "Rapidly developing urban center.")
+    case "Lagos":
+             print("Africa’s largest city by population" \
+             " Major economic and cultural hub." \
+             "Fast-growing and energetic.")
+    case "Nairobi":
+             print("East Africa’s business hub." \
+             "Unique for its urban national park." \
+             "Growing tech scene.")
+    case "Casablanca":
+             print("Morocco’s economic center." \
+             "Known for modern infrastructure." \
+             "Famous Hassan II Mosque.")
+    case "Moscow":
+             print("Russia’s capital and largest city." \
+             "Known for the Kremlin and Red Square." \
+             "Political and economic hub.")
+    case "Saint Petersburg":
+             print("Cultural capital of Russia." \
+             "Famous for canals and museums." \
+             "Historic imperial architecture.") 
+    case "Warsaw":
+             print("Rebuilt after WWII destruction." \
+             "Now a modern European capital." \
+             "Growing economy and culture.")
+    case "Vienna":
+             print("Known for classical music heritage." \
+             "High quality of life"
+             ".Elegant architecture and culture.")
+    case "Prague":
+             print("Famous for medieval old town." \
+             "Popular tourist destination." \
+             "Rich history and architecture.")
+    case "Kaula Lumpur":
+             print("Modern skyline with Petronas Tower" \
+             " Major Southeast Asian hub." \
+             " Mix of cultures and cuisine.")  
+    case "Manila":
+             print("Densely populated capital." \
+             "Spanish colonial history." \
+             "Important economic center.")
+    case "Hanoi":
+             print("Vietnam’s capital city"
+             ".Known for old quarter and lakes." \
+             "Blend of French and Asian influences.")
+    case "Ho Chi Minh ":
+             print("Vietnam’s largest city." \
+             "Economic engine of the country." \
+             "Fast-paced and modernizing.")
+    case "Taipei":
+             print("Modern city with rich traditions." \
+             "Famous for Taipei 101 tower." \
+             "tech-driven economy.")
+    case "Chicago":
+             print("Major US city on Lake Michigan." \
+             "Known for architecture and skyline." \
+             "Important transport hub.")
+    case "San Francisco":
+             print("Tech hub near Silicon Valley." \
+             "Famous Golden Gate Bridge." \
+             "Innovative and scenic city.")
+    case "Van Couver":
+             print("Coastal city with mountains nearby." \
+             "High quality of life." \
+             "Diverse and environmentally focused.")
+    case "Montreal":
+               print("French-speaking cultural center." \
+               "Known for festivals and arts"
+               ".Historic European feel.")
+    case "Beunos Aries":
+               print("Argentina’s capital." \
+               "Known for tango and culture." \
+               "European-style architecture.")
+    case "Santiago":
+               print("Chile’s capital city." \
+               "Surrounded by Andes mountains"
+               ".Major economic hub.")
+    case "Lima":
+               print("Peru’s coastal capital." \
+               "Known for cuisine and history." \
+               "Important cultural center.")
+    case "Athens":
+               print("Birthplace of democracy." \
+               "Home to ancient ruins like Acropolis." \
+               "Blend of history and modern life.")
+    case "Budapest":
+               print("Split by the Danube RiverKnown for thermal baths." \
+               "Rich architectural beauty.")
+    case "Stockholm":
+               print("Built on multiple islands." \
+               "Known for innovation and design." \
+               "Clean and green city")
+    case "Oslo":
+               print("Norway’s capital by the fjords." \
+               "Strong economy and sustainability." \
+               "Access to nature and culture.")
+    case "Helsinki":
+               print("Modern Nordic capital." \
+               "Known for education and design." \
+               "Cold climate with vibrant culture.")
+    case "Zurich":
+               print("Global banking hub." \
+               "High quality of life." \
+               "Clean and well-organized.")
+    case "Brussels":
+               print("EU administrative center." \
+               "Multicultural and political hub." \
+               "Famous for chocolate and waffles.")
+
+     
